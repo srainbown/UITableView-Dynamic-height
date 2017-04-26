@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E65F5821EB0888700B5264E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65F5811EB0888700B5264E /* main.m */; };
+		2E65F5851EB0888700B5264E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65F5841EB0888700B5264E /* AppDelegate.m */; };
+		2E65F5881EB0888700B5264E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65F5871EB0888700B5264E /* ViewController.m */; };
+		2E65F58B1EB0888700B5264E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E65F5891EB0888700B5264E /* Main.storyboard */; };
+		2E65F58D1EB0888700B5264E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E65F58C1EB0888700B5264E /* Assets.xcassets */; };
+		2E65F5901EB0888700B5264E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E65F58E1EB0888700B5264E /* LaunchScreen.storyboard */; };
+		2E65F59B1EB0888800B5264E /* TableView____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65F59A1EB0888800B5264E /* TableView____Tests.m */; };
+		2E65F5A61EB0888800B5264E /* TableView____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65F5A51EB0888800B5264E /* TableView____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E65F5971EB0888700B5264E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E65F5751EB0888700B5264E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E65F57C1EB0888700B5264E;
+			remoteInfo = "TableView动态高度";
+		};
+		2E65F5A21EB0888800B5264E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E65F5751EB0888700B5264E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E65F57C1EB0888700B5264E;
+			remoteInfo = "TableView动态高度";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E65F57D1EB0888700B5264E /* TableView动态高度.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableView动态高度.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E65F5811EB0888700B5264E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E65F5831EB0888700B5264E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E65F5841EB0888700B5264E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E65F5861EB0888700B5264E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E65F5871EB0888700B5264E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E65F58A1EB0888700B5264E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E65F58C1EB0888700B5264E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E65F58F1EB0888700B5264E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E65F5911EB0888700B5264E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E65F5961EB0888700B5264E /* TableView动态高度Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView动态高度Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E65F59A1EB0888800B5264E /* TableView____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TableView____Tests.m"; sourceTree = "<group>"; };
+		2E65F59C1EB0888800B5264E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E65F5A11EB0888800B5264E /* TableView动态高度UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView动态高度UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E65F5A51EB0888800B5264E /* TableView____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TableView____UITests.m"; sourceTree = "<group>"; };
+		2E65F5A71EB0888800B5264E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E65F57A1EB0888700B5264E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E65F5931EB0888700B5264E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E65F59E1EB0888800B5264E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E65F5741EB0888700B5264E = {
+			isa = PBXGroup;
+			children = (
+				2E65F57F1EB0888700B5264E /* TableView动态高度 */,
+				2E65F5991EB0888700B5264E /* TableView动态高度Tests */,
+				2E65F5A41EB0888800B5264E /* TableView动态高度UITests */,
+				2E65F57E1EB0888700B5264E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E65F57E1EB0888700B5264E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E65F57D1EB0888700B5264E /* TableView动态高度.app */,
+				2E65F5961EB0888700B5264E /* TableView动态高度Tests.xctest */,
+				2E65F5A11EB0888800B5264E /* TableView动态高度UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E65F57F1EB0888700B5264E /* TableView动态高度 */ = {
+			isa = PBXGroup;
+			children = (
+				2E65F5831EB0888700B5264E /* AppDelegate.h */,
+				2E65F5841EB0888700B5264E /* AppDelegate.m */,
+				2E65F5861EB0888700B5264E /* ViewController.h */,
+				2E65F5871EB0888700B5264E /* ViewController.m */,
+				2E65F5891EB0888700B5264E /* Main.storyboard */,
+				2E65F58C1EB0888700B5264E /* Assets.xcassets */,
+				2E65F58E1EB0888700B5264E /* LaunchScreen.storyboard */,
+				2E65F5911EB0888700B5264E /* Info.plist */,
+				2E65F5801EB0888700B5264E /* Supporting Files */,
+			);
+			path = "TableView动态高度";
+			sourceTree = "<group>";
+		};
+		2E65F5801EB0888700B5264E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E65F5811EB0888700B5264E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E65F5991EB0888700B5264E /* TableView动态高度Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2E65F59A1EB0888800B5264E /* TableView____Tests.m */,
+				2E65F59C1EB0888800B5264E /* Info.plist */,
+			);
+			path = "TableView动态高度Tests";
+			sourceTree = "<group>";
+		};
+		2E65F5A41EB0888800B5264E /* TableView动态高度UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E65F5A51EB0888800B5264E /* TableView____UITests.m */,
+				2E65F5A71EB0888800B5264E /* Info.plist */,
+			);
+			path = "TableView动态高度UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E65F57C1EB0888700B5264E /* TableView动态高度 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E65F5AA1EB0888800B5264E /* Build configuration list for PBXNativeTarget "TableView动态高度" */;
+			buildPhases = (
+				2E65F5791EB0888700B5264E /* Sources */,
+				2E65F57A1EB0888700B5264E /* Frameworks */,
+				2E65F57B1EB0888700B5264E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableView动态高度";
+			productName = "TableView动态高度";
+			productReference = 2E65F57D1EB0888700B5264E /* TableView动态高度.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E65F5951EB0888700B5264E /* TableView动态高度Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E65F5AD1EB0888800B5264E /* Build configuration list for PBXNativeTarget "TableView动态高度Tests" */;
+			buildPhases = (
+				2E65F5921EB0888700B5264E /* Sources */,
+				2E65F5931EB0888700B5264E /* Frameworks */,
+				2E65F5941EB0888700B5264E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E65F5981EB0888700B5264E /* PBXTargetDependency */,
+			);
+			name = "TableView动态高度Tests";
+			productName = "TableView动态高度Tests";
+			productReference = 2E65F5961EB0888700B5264E /* TableView动态高度Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E65F5A01EB0888800B5264E /* TableView动态高度UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E65F5B01EB0888800B5264E /* Build configuration list for PBXNativeTarget "TableView动态高度UITests" */;
+			buildPhases = (
+				2E65F59D1EB0888800B5264E /* Sources */,
+				2E65F59E1EB0888800B5264E /* Frameworks */,
+				2E65F59F1EB0888800B5264E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E65F5A31EB0888800B5264E /* PBXTargetDependency */,
+			);
+			name = "TableView动态高度UITests";
+			productName = "TableView动态高度UITests";
+			productReference = 2E65F5A11EB0888800B5264E /* TableView动态高度UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E65F5751EB0888700B5264E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = View;
+				TargetAttributes = {
+					2E65F57C1EB0888700B5264E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					2E65F5951EB0888700B5264E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E65F57C1EB0888700B5264E;
+					};
+					2E65F5A01EB0888800B5264E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E65F57C1EB0888700B5264E;
+					};
+				};
+			};
+			buildConfigurationList = 2E65F5781EB0888700B5264E /* Build configuration list for PBXProject "TableView动态高度" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E65F5741EB0888700B5264E;
+			productRefGroup = 2E65F57E1EB0888700B5264E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E65F57C1EB0888700B5264E /* TableView动态高度 */,
+				2E65F5951EB0888700B5264E /* TableView动态高度Tests */,
+				2E65F5A01EB0888800B5264E /* TableView动态高度UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E65F57B1EB0888700B5264E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E65F5901EB0888700B5264E /* LaunchScreen.storyboard in Resources */,
+				2E65F58D1EB0888700B5264E /* Assets.xcassets in Resources */,
+				2E65F58B1EB0888700B5264E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E65F5941EB0888700B5264E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E65F59F1EB0888800B5264E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E65F5791EB0888700B5264E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E65F5881EB0888700B5264E /* ViewController.m in Sources */,
+				2E65F5851EB0888700B5264E /* AppDelegate.m in Sources */,
+				2E65F5821EB0888700B5264E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E65F5921EB0888700B5264E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E65F59B1EB0888800B5264E /* TableView____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E65F59D1EB0888800B5264E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E65F5A61EB0888800B5264E /* TableView____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E65F5981EB0888700B5264E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E65F57C1EB0888700B5264E /* TableView动态高度 */;
+			targetProxy = 2E65F5971EB0888700B5264E /* PBXContainerItemProxy */;
+		};
+		2E65F5A31EB0888800B5264E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E65F57C1EB0888700B5264E /* TableView动态高度 */;
+			targetProxy = 2E65F5A21EB0888800B5264E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E65F5891EB0888700B5264E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E65F58A1EB0888700B5264E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E65F58E1EB0888700B5264E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E65F58F1EB0888700B5264E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E65F5A81EB0888800B5264E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E65F5A91EB0888800B5264E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E65F5AB1EB0888800B5264E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableView动态高度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.TableView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E65F5AC1EB0888800B5264E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableView动态高度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.TableView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2E65F5AE1EB0888800B5264E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TableView动态高度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.TableView----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableView动态高度.app/TableView动态高度";
+			};
+			name = Debug;
+		};
+		2E65F5AF1EB0888800B5264E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TableView动态高度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.TableView----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableView动态高度.app/TableView动态高度";
+			};
+			name = Release;
+		};
+		2E65F5B11EB0888800B5264E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableView动态高度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.TableView----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TableView动态高度";
+			};
+			name = Debug;
+		};
+		2E65F5B21EB0888800B5264E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableView动态高度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.TableView----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TableView动态高度";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E65F5781EB0888700B5264E /* Build configuration list for PBXProject "TableView动态高度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E65F5A81EB0888800B5264E /* Debug */,
+				2E65F5A91EB0888800B5264E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E65F5AA1EB0888800B5264E /* Build configuration list for PBXNativeTarget "TableView动态高度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E65F5AB1EB0888800B5264E /* Debug */,
+				2E65F5AC1EB0888800B5264E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E65F5AD1EB0888800B5264E /* Build configuration list for PBXNativeTarget "TableView动态高度Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E65F5AE1EB0888800B5264E /* Debug */,
+				2E65F5AF1EB0888800B5264E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E65F5B01EB0888800B5264E /* Build configuration list for PBXNativeTarget "TableView动态高度UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E65F5B11EB0888800B5264E /* Debug */,
+				2E65F5B21EB0888800B5264E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E65F5751EB0888700B5264E /* Project object */;
+}
